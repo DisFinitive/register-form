@@ -1,0 +1,167 @@
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+/* Tags */
+
+body {
+	font-size: 14px;
+	font-family: Robot, sans-serif;
+	background: url(../img/background.jpg);
+	font-weight: 500;
+}
+
+h1 {
+	color: #333;
+	font-size: 30px;
+	margin-bottom: 17px;
+	padding-top: 10px;
+	text-align: center;
+}
+
+p {
+	margin:5px 0 5px 10px;
+}
+
+
+/* Container */
+
+.container {
+	background-color: #fff;
+	margin: 0 auto;
+	width: 700px;
+	height: 100%;
+	border-radius: 7px;
+}
+
+
+/* Form */
+
+.form {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.form-item {
+	display: flex;
+	align-items: center;
+	margin: 4px;
+}
+
+.form-item-left {
+	width: 20%;
+}
+
+.field {
+	border: 1px solid #666;
+	border-radius: 4px;
+	height: 30px;
+	width: 200px;
+}
+
+
+/* Add inf */
+
+.addfield {
+	border: 1px solid #666;
+	border-radius: 4px;
+	height: 30px;
+	width: 350px;
+}
+
+/* Favorit color */
+
+.color {
+	display: block;
+	border: 1px solid #666;
+	border-radius: 4px;
+	height: 30px;
+	width: 100px;
+	cursor: pointer;
+	position: relative;
+}
+
+
+/* Button */
+
+.button {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 10px;
+}
+
+.form-button {
+	width: 100px;
+	height: 30px;
+	border: solid 1px #0075FF;
+	border-radius: 3px;
+	text-align: center;
+}
+
+.form-item__button {
+	margin: 0 15px;
+}
+
+.line {
+	margin: 20px 0 15px 0;
+	border-bottom: solid 1px #999;
+}
+
+.blue1 {
+	color: #0075FF;
+	background-color: #fff;
+}
+
+.blue2 {
+	color: #fff;
+	background-color: #0075FF;
+}
+
+/* Checkbox & Radio */
+
+.form-item-right__checkbox {
+	margin: 0 0 2px 21%;
+}
+
+.form-item-right__radio {
+	margin: 0 0 2px 21%;
+}
+
+.form-item-left__check {
+	margin-left: 4px;
+}

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="css/style.css">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Project form</title>
+	</head>
+
+	<body>
+		
+		<div class="container">
+			<h1>Register form</h1>
+
+			<form class="form" action="#" method="post" enctype="multipart/form-data">
+
+				<div class="form-item">
+					<div class="form-item-left">
+						<p>Name</p>		
+					</div>
+					<div class="form-item-right">
+						<input class="field" tabindex="1" type="text" name="username">			
+					</div>
+				</div>
+
+
+				<div class="form-item">
+					<div class="form-item-left">
+						<p>Password</p>
+					</div>
+					<div class="form-item-right">
+						<input class="field" tabindex="2" type="password" name="userpass">
+					</div>
+				</div>
+
+
+				<div class="form-item">
+					<div class="form-item-left">
+						<p>Telephone</p>		
+					</div>
+					<div class="form-item-right">
+						<input class="field" placeholder="+7 (XXX) XXX XX-XX" tabindex="3" type="tel" name="userphone">			
+					</div>
+				</div>
+
+
+				<div class="form-item__radio">
+					<div class="form-item-left__check">
+						<p>Gender</p>		
+					</div>
+
+					<div class="form-item-right__radio">
+						<label><input class="" checked tabindex="4" type="radio" name="gender" value="male"> Male</label>
+					</div>
+
+					<div class="form-item-right__radio">
+						<label><input class="" tabindex="4" type="radio" name="gender" value="female"> Female</label>		
+					</div>
+				</div>
+
+
+				<div class="form-item__checkbox">
+					<div class="form-item-left__check">
+						<p>Property</p>		
+					</div>
+
+					<div class="form-item-right__checkbox">
+						<label><input class="" checked tabindex="5" type="checkbox" name="bike" value="yes"> Bike</label>	
+					</div>
+
+					<div class="form-item-right__checkbox">
+						<label><input class="" tabindex="6" type="checkbox" name="car" value="yes"> Car</label>
+					</div>
+
+					<div class="form-item-right__checkbox">
+						<label><input class="" disabled tabindex="7" type="checkbox" name="house" value="yes"> House</label>
+					</div>
+				</div>
+
+
+				<div class="form-item">
+					<div class="form-item-left">
+						<p>Additional information</p>		
+					</div>
+					<div class="form-item-right">
+						<textarea class="addfield" tabindex="8" name="text"></textarea>		
+					</div>
+				</div>
+
+
+				<div class="form-item">
+					<div class="form-item-left">
+						<p>Attach a photo</p>		
+					</div>
+					<div class="form-item-right">
+						<input class="" tabindex="9" type="file">			
+					</div>
+				</div>
+
+
+				<div class="form-item">
+					<div class="form-item-left">
+						<p>Favorite color</p>		
+					</div>
+
+					<div class="form-item-right">
+						<select class="color" tabindex="10" name="color">
+							<option value="red">Red</option>
+							<option selected value="green">Green</option>
+							<option value="blue">Blue</option>
+						</select>		
+					</div>
+				</div> 
+
+				<div class="line"></div>
+
+				<div class="button">
+					<div class="form-item__button">
+						<button class="form-button blue1" tabindex="12" type="reset">Cleane</button>
+					</div>
+
+					<div class="form-item__button">
+						<button class="form-button blue2" tabindex="11" type="submit">Continue</button>
+					</div>
+				</div>
+
+			</form>
+		</div> <!-- contaner -->
+
+	</body>
+</html>
